@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
+<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8? />
 	<title>ERIKA OVIEDO</title>
-	<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8? />
+	
 
 	<!-- Font -->
 
@@ -19,6 +20,9 @@
 	<link href="01-homepage/css/styles.css" rel="stylesheet">
 
 	<link href="01-homepage/css/responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="fons.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 </head>
 
@@ -44,18 +48,19 @@ top:92%;
 }
 </style>
 
-	<div class="bottom-area">
-			<div class="menu-nav-icon" data-nav-menu="#main-menu"><i class="ion-navicon"></i></div>
+	<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-list2"></span>Menu</a>
+		</div>
 
-					<ul class="main-menu visible-on-click" id="main-menu">			
-								<li  class="active"><a href="index.html">INICIO</a></li>
-								<li  class="active"><a href="03-About-me.html">BIOGRAFIA</a></li>
-								<li  class="active"><a href="05-Comming-soon.html">CATEGORIA</a></li>
-								<li  class="active"><a href="04-Contact.html">CONTACTOS</a></li>
-							</ul>
-						</li>
-
-		</div><!-- conatiner -->
+		<nav>
+			<ul>
+				<li><a href="index.html"><span class="icon-home"></span>Inicio</a></li>
+				<li><a href="03-About-me.html"><span class="icon-woman"></span>Biografía</a></li>
+				<li><a href="05-Comming-soon.html"><span class="icon-rocket"></span>Proyectos</a></li>
+				<li><a href="#"><span class="icon-earth"></span>Servicios</a></li>
+				<li><a href="04-Contact.html"><span class="icon-mail"></span>Contactos</a></li>
+			</ul>
+		</nav>
 	</header>		
 
 		<div id="slider">
@@ -97,13 +102,13 @@ top:92%;
 							<div class="image-wrapper"><img src="images/blog-1-1000x600.jpg" alt="Blog Image"></div>
 							<h6 class="date"><em>Monday, October 13, 2017</em></h6>
 
-							<h3 class="title"><a href="file:///C:/Users/Taulio%20Sanchez/Social%20ADM%20Group/HTML%20GENERAL/Erika%20Oviedo/06-Pronto-auxilio-.html"><b class="light-color">Pronto auxilio</b></a></h3>
+							<h3 class="title"><a href="06-Pronto-auxilio-.html"><b class="light-color">Pronto auxilio</b></a></h3>
 							<p align="justify">Cuando somos niños soñamos con la existencia de un super héroe. De esos que
 										vemos en las películas,  que llegan volando con su gigantesca capa, super fuerza y
 										hacen un rescate espectacular  justo antes de  que las victimas caigan al vacío o se
 										derrumbe todo.</p>
 
-							<a class="btn read-more-btn" href="file:///C:/Users/Taulio%20Sanchez/Social%20ADM%20Group/HTML%20GENERAL/Erika%20Oviedo/06-Pronto-auxilio-.html"><b>LEER MAS</b></a>
+							<a class="btn read-more-btn" href="06-Pronto-auxilio-.html"><b>LEER MAS</b></a>
 						</div><!-- single-post -->
 
 						<div class="row">
@@ -113,11 +118,11 @@ top:92%;
 									<div class="image-wrapper"><img src="images/blog-3-500x400.jpg" alt="Blog Image"></div>
 										<h6 class="date"><em>Monday, October 13, 2017</em></h6>
 									
-									<h3 class="title"><a href="file:///C:/Users/Taulio%20Sanchez/Social%20ADM%20Group/HTML%20GENERAL/Erika%20Oviedo/07-Proezas-en-Dios-.html"><b class="light-color">Proezas en Dios</b></a></h3>
+									<h3 class="title"><a href="07-Proezas-en-Dios-.html"><b class="light-color">Proezas en Dios</b></a></h3>
 
 									<p align="justify">David, siendo rey de Israel, junto a sus generales Joab y Abisai, derribaron a 18.000 edomitas, enemigos de Israel, en un lugar llamado el valle de la Sal. La victoria no fue fácil, los israelitas habían sufrido reveses mientras combatían en el norte del país con las fuerzas de Aram-naharaim y Aram-Soba. Sin embargo, los edomitas fueron
 										vencidos, y David colocó guarniciones de tropas israelitas por todo Edom.</p>
-										<a class="btn read-more-btn" href="file:///C:/Users/Taulio%20Sanchez/Social%20ADM%20Group/HTML%20GENERAL/Erika%20Oviedo/07-Proezas-en-Dios-.html"><b>LEER MAS</b></a>
+										<a class="btn read-more-btn" href="07-Proezas-en-Dios-.html"><b>LEER MAS</b></a>
 
 								</div><!-- single-post -->
 							</div><!-- col-sm-6 -->
@@ -296,12 +301,6 @@ top:92%;
 		</div><!-- container -->
 	</section><!-- section -->
 
-
-	<section class="footer-instagram-area">
-	</section><!-- section -->
-
-
-
 	
 	<footer class="footer"><center>
     <div class="container">
@@ -311,7 +310,6 @@ top:92%;
         <a href="http://www.socialadmgroup.com/">Website created</a> by <a href="http://www.socialadmgroup.com/">Social ADM Group</a>
         </div>
     </div></footer>
-</footer>
 
 	<!-- SCIPTS -->
 
@@ -324,6 +322,8 @@ top:92%;
 	<script src="common-js/layerslider.js"></script>
 
 	<script src="common-js/scripts.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script> 
+	<script src="menu.js"></script>
 
 </body>
 </html>
