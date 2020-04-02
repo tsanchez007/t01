@@ -593,7 +593,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 40px;
   height: 3px;
-  background: #18d26e;
+  background:#ffad4d;
   bottom: 0;
   left: calc(50% - 20px);
 }
