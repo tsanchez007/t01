@@ -940,7 +940,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 360px;
+  height: 350px;
   overflow: hidden;
 }
 
@@ -973,7 +973,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
   padding-top: 6px;
-  font-size: 22px;
+  font-size: 2px;
   color: #333;
 }
 
@@ -1014,7 +1014,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 5px;
+  font-size: 11px;
   line-height: 1px;
   font-weight: 700;
   margin-bottom: 18px;
