@@ -137,25 +137,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #header #logo {
-    padding-left: 60px;
+    padding-left: 30px;
   }
 }
 
-#header #logo h1 {
-  font-size: 34px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-}
-
-#header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
-  padding-left: 10px;
-  border-left: 4px solid #18d26e;
-}
 
 #header #logo img {
   padding: 0;
@@ -191,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0, 0.7);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -593,7 +578,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 40px;
   height: 3px;
-  background:#ffad4d;
+  background: #ffad4d;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -693,7 +678,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col .icon {
-  width: 64px;
+  width: 80px;
   height: 64px;
   padding-top: 8px;
   text-align: center;
@@ -765,7 +750,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .icon i {
   color: #18d26e;
-  font-size: 36px;
+  font-size: 80px;
   line-height: 1;
   transition: 0.5s;
 }
