@@ -895,7 +895,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  padding: 60px 0;
+  padding: 25px 0;
 }
 
 #portfolio #portfolio-flters {
@@ -1008,13 +1008,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item .portfolio-info {
   background: #fff;
   text-align: center;
-  padding: 30px;
-  height: 90px;
+  padding: 27px;
+  height: 100px;
   border-radius: 0 0 3px 3px;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1px;
   font-weight: 700;
   margin-bottom: 18px;
@@ -1034,7 +1034,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
   color: #b8b8b8;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
 }
 
