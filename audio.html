@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+HOLA
+	</title>
+</head>
+<body>
+
+<style type="text/css">
+
+
+
+#logo {
+position: absolute;
+width:240px;
+left:6%;
+right:95%;
+top:92%;
+
+ }
+}
+</style>
+
+
+
+<audio id="fenster" src="https://audio-video.gnu.org/audio/Fenster-Free-Software-Song.ogg" preload="metadata"></audio>
+<audio id="piano" src="https://www.gnu.org/music/markushaist-free-software-song.ogg" preload="metadata"></audio>
+<audio id="original" src="https://www.gnu.org/music/free-software-song.ogg" preload="metadata"></audio>
+
+<script id="custom-template" type="text/x-tmpl">
+    <div class="form-inline">
+        <div class="u5a-html5-player">
+            {%#o.audio%}
+        </div>
+        <button class="u5a-play btn btn-primary">
+            <i class="glyphicon glyphicon-play"></i>
+        </button>
+        <button class="u5a-pause btn btn-primary hidden">
+            <i class="glyphicon glyphicon-pause"></i>
+        </button>
+        <button class="u5a-stop btn btn-primary hidden">
+            <i class="glyphicon glyphicon-stop"></i>
+        </button>
+        <div class="form-group" style="margin-left:15px">
+            <input type="range" max="1" step="0.01" value="1" oninput="{%=o.selector%}.volume=this.value;">
+        </div>
+    </div>
+</script>
+
+
+<script src="jquery.js"></script>
+<script src="jquery.audioControls.js"></script>
+<script>
+
+new UniversalHTML5Audio({
+    selector: "fenster",
+    className: "text-center",
+    template: "custom-template"
+});
+new UniversalHTML5Audio({
+    selector: "piano",
+    className: "text-center",
+    template: "custom-template"
+});
+new UniversalHTML5Audio({
+    selector: "original",
+    className: "text-center",
+    template: "custom-template"
+});
+
+</script>
+
+
+</body>
+</html>
+
+
+
